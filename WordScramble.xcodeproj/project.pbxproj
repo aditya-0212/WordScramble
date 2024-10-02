@@ -11,6 +11,8 @@
 		188225962BD7764F00D47BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188225952BD7764F00D47BA4 /* ContentView.swift */; };
 		188225982BD7765000D47BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188225972BD7765000D47BA4 /* Assets.xcassets */; };
 		1882259B2BD7765000D47BA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1882259A2BD7765000D47BA4 /* Preview Assets.xcassets */; };
+		188225A22BD9165D00D47BA4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188225A12BD9165D00D47BA4 /* SwiftUIView.swift */; };
+		188225A42BD9300500D47BA4 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 188225A32BD9300500D47BA4 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		188225952BD7764F00D47BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		188225972BD7765000D47BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1882259A2BD7765000D47BA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		188225A12BD9165D00D47BA4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		188225A32BD9300500D47BA4 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				188225932BD7764F00D47BA4 /* WordScrambleApp.swift */,
+				188225A12BD9165D00D47BA4 /* SwiftUIView.swift */,
+				188225A32BD9300500D47BA4 /* start.txt */,
 				188225952BD7764F00D47BA4 /* ContentView.swift */,
 				188225972BD7765000D47BA4 /* Assets.xcassets */,
 				188225992BD7765000D47BA4 /* Preview Content */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1882259B2BD7765000D47BA4 /* Preview Assets.xcassets in Resources */,
+				188225A42BD9300500D47BA4 /* start.txt in Resources */,
 				188225982BD7765000D47BA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				188225962BD7764F00D47BA4 /* ContentView.swift in Sources */,
 				188225942BD7764F00D47BA4 /* WordScrambleApp.swift in Sources */,
+				188225A22BD9165D00D47BA4 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
